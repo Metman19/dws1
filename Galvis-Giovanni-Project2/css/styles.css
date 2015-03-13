@@ -61,4 +61,8 @@ a:hover {
 a:active {
     color: #0000FF; /* the active link */
 }
+.textColor {
+	color: #F96;
+
+}
 /* End of Sheet */
