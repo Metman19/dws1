@@ -1,0 +1,52 @@
+body {
+	font-size: 80%;
+	font-family: "Arial", Verdana, Sans-Serif;
+	letter-spacing: 0.15em;	
+	background-color: #efefef;
+	}
+		
+ul #navigation {
+	list-style-type: none;
+	text-align: center;
+	width: 625px;
+	}
+
+#content {
+	width: 600px;
+	float: left;
+	margin: 20px;
+	}
+	
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	
+a:hover, a#current-page {
+	color: #cc3333;
+	background-color: #ffffff;
+	}
+#page {
+	width: 960px;
+	color: #000;
+	border-top: 4px;
+	border-bottom: 4px;
+	border-left: 4px;
+	border-right: 4px;
+	border-style: double;	
+}
+
+#logo {
+	width: 303px;
+}
+h1 {
+	font-size: 1.5;
+}
+h2 {
+	font-size: 1.33;
+}
+h3 {
+	font-size: 1.25;
+}
+
