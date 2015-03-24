@@ -2,13 +2,13 @@
 /*Project 3*/
 body {
 	background: url(../images/dark-canvas.gif) repeat;
-	font-family: 'MyWebFont', Fallback, sans-serif;
+	font-family: 'Open Sans', sans-serif, arial;
 	width: 90%;
 	margin: 0 auto;
 	height: 990px;
 	padding: 5%;
-	border-color: #fff;
-	border: 10px solid;
+	border-color: #333;
+	border: 5px solid;
     border-radius: 3%;
 }
 h1, h2, h3 {
@@ -32,14 +32,14 @@ ol	 {
     line-height: 200%;
     color: #fff;
 }
-ul>li {
+ul li {
 	display: inline;
 	color: #fff;
 }
 
 p {
 	text-align: justify;
-	width: 64%;
+	width: 80%;
 	margin: 1%;
 	color: #fff;
 }
@@ -87,11 +87,14 @@ a:active {
 figure {
 	display: inline;
 }
-#check
-	ul {
-    list-style-image: url('http://www.psc-cfp.gc.ca/ppc-cpp/images/small-check-mark.jpg');	
+#check {
+    background-image: url("../images/soccerball.png");	
 	background-repeat: no-repeat;
-	height: 10px;
+	padding: 8px 0 0 50px;
+	height: 50px;
+	background-size: 40px;
 }
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 
 /* End of Sheet */
