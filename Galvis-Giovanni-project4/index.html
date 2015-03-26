@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+			<title>My favorite sport is Soccer</title>
+			<link href="css/styles.css" rel="stylesheet" type="text/css" />
+			<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+			
+	</head>
+<body>
+<!--Project 1 is about my favorite sport, I will bring information 
+about the sport through wikipedia-->
+
+		<header><!--header tag is being used-->
+			<h1> My favorite sport is Soccer(Football)</h1>
+		</header>
+	<nav>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#history">History</a></li>
+			<li><a href="#gallery">Gallery</a></li>
+		</ul>
+	</nav>
+<section id="content"><h2>The FA</h2>
+		<article>	<h3>The Game</h3>
+		<p>
+		Association football, more commonly known as football or soccer,
+		is a sport played between two teams of eleven players with a
+		 spherical ball. It is played by 250 million players in over 200 
+		 countries, making it the world's most popular sport. 
+		 The game is played on a rectangular field with a goal at each end. 
+		 The object of the game is to score by getting the ball into the 
+		 opposing goal.
+		</p>
+	</article>
+		<br>
+		<article> 
+			<h2>Interesting</h2>
+		<p>
+		<strong>Fact:</strong> Soccer was invented in England
+		</p>
+	</article>
+		<article>	
+		
+		<h2><a id="about">About</a></h2>
+		<p>
+		Today, football is played at a professional level all over the world. Millions of people regularly go to football stadiums to follow their favourite teams, while billions more watch the game on television or on the internet. A very large number of people also play football at an amateur level. According to a survey conducted by FIFA published in 2001, over 240 million people from more than 200 countries regularly play football. Football has the highest global television audience in sport.
+		</p>
+	</article>
+	<article>
+		<h2><a id="history">History</a></h2>
+		<p>
+		The earliest known football-type game in Europe was Phaininda, an ancient Greek game that was first recorded in the fourth century BCE by Antiphanes
+		</p> 
+   
+   		<h3>Here are the countries with the most world cups</h3>
+   
+    	<ol>  
+   			<li>Brazil has 5 World Cups</li>
+    		<li>Germany has 4 World Cups</li>
+    		<li>Italy has 4 World Cups</li>
+    		<li>Argentina has 2 World Cups</li>
+    		<li>Uruguay has 2 World Cups</li>
+    		<li>England has 1 World Cup</li>
+    		<li>France has 1 World Cup</li>
+    		<li>Spain has 1 World Cup</li>
+    	</ol>
+    </article>
+    <article>
+    	<h2>Hall of Fame</h2>
+    	<table>
+    			<tr>
+    				<th scope="col">
+    					 Name
+    				</th>
+    				<th scope="col">
+    					Nationality
+    				</th>
+    				<th scope="col">
+    					Club
+    				</th>
+    			</tr>
+    			<tr>
+    				<td>
+    					Pele
+    				</td>
+    				<td>
+    					Brazil
+    				</td>
+    				<td>
+    					Santos FC
+    				</td>
+    			</tr>
+    				<tr>
+    				<td>
+    					Maradona
+    				</td>
+    				<td>
+    					Argentina
+    				</td>
+    				<td>
+    					Napoli
+    				</td>
+    			</tr>
+    			<tr>
+    				<td>
+    					Zidane
+    				</td>
+    				<td>
+    					France
+    				</td>
+    				<td>
+    					Real Madrid
+    				</td>
+    			</tr>
+    	</table>
+    </article>
+<br>
+<article><h3>Sign Up</h3>
+	<!--form begins-->
+	<form action="mailto:gagalvis@fullsail.edu" autocomplete="on">
+  		<label for="firstname">First name:</label>
+ 		 	<input type="text" name="firstname" placeholder="First name" id="firstname" required="required" class="input"><br>
+		<label for="lastname">Last name:</label>
+   			<input type="text" name="lastname" placeholder="Last name" id="lastname" required="required" class="input"><br>
+ 	E-mail:
+    <input type="email" name="email" placeholder="name@example.com" required="required" class="input"><br>
+ 	 Gender:
+ 		 <label for="male">Male</label>
+ 		 <input type="radio" name="sex" id="male" value="male"><br>
+ 		 <label for="female">Female</label>
+ 		 <input type="radio" name="sex" id="female" value="female">
+<br>Who is your favorite?
+	<select>
+ 		  <option value="Pele">Pele</option>
+		  <option value="Maradona">Maradona</option>
+		  <option value="Zidane">Zidane</option>
+		  <option value="Ronaldo">Ronaldo</option>
+	</select>
+<br>
+	<textarea rows="3" cols="40" name="comment">
+		Didn't like the list tell us your favorites...
+	</textarea><br>
+ 	 <input type="submit" class="button">
+ 	 
+</form>
+<button onclick="myFunction()">Click me</button>
+ <script>
+function myFunction() {
+    alert("Welcome, fill out the form, Thanks");
+}
+</script>
+<!--form ends-->
+	</article>
+	<br>
+   		<em>Famous Quote</em><br>
+   		<q>Rod Steward - I'm a rock star because I couldn't be a soccer star.</q>
+		<br>
+</section>
+  
+   <!--Using the "aside" -->		
+		<aside id="sidebar">
+		<h2><a id="gallery">Gallery</a></h2>
+		
+			<!--The gallery begins-->
+		
+			<ol class="c">
+				<li>
+				<figure>
+ 				<a href="images/soccer1.jpg"><img src="images/soccer1.jpg" alt="a soccer game" /></a><br>
+				Photo Credit: <a href="https://www.flickr.com/photos/7399644@N03/2628648105/">Brynja Eldon</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a> 
+				<figcaption>
+				A girls soccer game.
+				</figcaption>
+				</figure>
+			</li>
+			<li>
+				<figure>
+				<a href="images/soccer2.jpg"><img src="images/soccer2.jpg" alt="soccer players with ball"/></a><br>
+				Photo Credit: <a href="https://www.flickr.com/photos/30989890@N08/14994762671/">Jim Crouch</a> via <a href="http://compfight.com">Compfight</a> <a href="https://www.flickr.com/help/general/#147">cc</a> 
+				<figcaption>A boys high school soccer match.</figcaption>
+				</figure>
+			</li>		
+			<li>
+				<figure>
+				<a href="images/soccer3.jpg"><img src="images/soccer3.jpg" alt="Manchester United" /></a><br>Photo Credit:<a href="https://www.flickr.com/photos/60278244@N00/5988841426/">Joscarfas</a> via <a href="http://compfight.com">Compfight</a> <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a>
+				<figcaption>Manchester United before a match</figcaption>
+				</figure>
+			</li>
+		</ol>
+
+	</aside>
+	<!--footer begins-->
+	 <footer>
+<p>&copy; Giovanni Galvis Project 4 - All rights reserved.</p>
+</footer>
+
+		<!--End of the gallery-->
+</body>
+</html>

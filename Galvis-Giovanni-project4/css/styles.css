@@ -1,0 +1,163 @@
+/* Giovanni Galvis CSS */
+/*Project 3*/
+/* Main Styles */
+body {
+	background: url(../images/dark-canvas.gif) repeat;
+	font-family: 'Open Sans', sans-serif, arial;
+	width: 90%;
+	margin: 0 auto;
+	height: 90%;
+	padding: 5%;
+	border-color: #333;
+	border: 5px solid;
+    border-radius: 3%;
+}
+h1, h2, h3 {
+    color: #FF0066;
+    opacity: 0.5;
+    text-shadow: 1px 1px #000;
+}
+em {
+	color: #F4F4F4;
+}
+q {
+	color: #F4F4F4;
+	background-color: #069699;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+strong {
+	font-style: italic;
+	}
+ol	 {
+    line-height: 200%;
+    color: #fff;
+}
+ul li {
+	display: inline;
+	color: #fff;
+}
+
+p {
+	text-align: justify;
+	width: 80%;
+	margin: 1%;
+	color: #fff;
+}
+img {
+	box-shadow: 10px 10px 10px #888888; /* images with shadow */
+	width:60%;
+	height:60%;
+}
+/* Navigation and layout */
+a:link {
+    color: #455454; /* The link color */
+}
+
+a:visited {
+    color: #fff; /* Color of visited link */
+}
+
+a:hover {
+    color: #FF00FF; /* color when you hover over */
+}
+
+a:active {
+    color: #0000FF; /* the active link */
+}
+.textColor {
+	color: #F96;
+	background-color: #fff;
+
+}
+#content {
+	float: left;
+	width: 64%;
+	margin: 1%;
+	padding: 1%;
+	clear: left;
+	background-color: #696969;
+}
+#sidebar {
+	float: left;
+	width: 25%;
+	margin: 1%;
+	padding: 1%;
+	background: linear-gradient(#286, #77c);
+	
+}
+figure {
+	display: inline;
+}
+figcaption {
+    background-image: url("../images/soccerball.png");	
+	background-repeat: no-repeat;
+	padding: 8px 0 0 50px;
+	height: 50px;
+	background-size: 40px;
+}
+
+/* table controls */
+table, td{
+    border: 1px solid black;
+    width: 50%;
+    padding: 5px;
+    font-size: 1em;
+    text-align: justify;
+    letter-spacing: 3px;
+    border-spacing: 1px;
+    border-color: #789586;
+}
+tr:hover {
+    background-color:#CEDBEF;
+    }
+th {
+	background-color: #fff;
+}    
+    /* form styles */
+form { 
+    display: block;
+    margin-top: 0em;
+    padding: 5px;
+	margin: 5px;
+	font-size:1em;
+	color: #777;
+	text-align: left;
+	border: double;
+	background-color: #242424;
+	float: left;
+	width:70%;
+}
+.input {
+    border: 1px solid #006;
+    background: #ffc;
+    clear: both;
+}
+.input:hover {
+    border: 1px solid #f00;
+    background: #ff6;
+}
+.button {
+    border: 1px solid #006;
+    background: #ccf;
+}
+.button:hover {
+    border: 1px solid #f00;
+    background: #eef;
+}
+input:focus {
+    background-color: #fff;
+}
+/* Footer for the bottom */
+footer {
+	clear:both;
+	padding: 7px 0px 0px 20px;
+}
+
+
+
+/* End of Sheet */
