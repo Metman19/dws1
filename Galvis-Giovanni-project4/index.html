@@ -138,9 +138,10 @@ about the sport through wikipedia-->
 		  <option value="Ronaldo">Ronaldo</option>
 	</select>
 <br>
-	<textarea rows="3" cols="40" name="comment">
-		Didn't like the list tell us your favorites...
-	</textarea><br>
+	<input type="button" name="button3" value="Alert" 
+    onClick="seeTextArea(this.form)">
+<textarea name="myarea" cols="40" rows="5">
+</textarea><br>
  	 <input type="submit" class="button">
  	 
 </form>
@@ -148,6 +149,9 @@ about the sport through wikipedia-->
  <script>
 function myFunction() {
     alert("Welcome, fill out the form, Thanks");
+}
+function seeTextArea (form) { alert (form.myarea.value);
+
 }
 </script>
 <!--form ends-->
